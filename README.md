@@ -1,6 +1,6 @@
 # Starting point
 
-Lovely, simple and automatic Sass and JS builds using LiveReload and Grunt. Thanks goes to [@carylandholt](https://twitter.com/carylandholt) for the Grunt tutorial.
+Simple and automatic Sass and JS builds using LiveReload and Grunt. Thanks goes to [@carylandholt](https://twitter.com/carylandholt) for the Grunt tutorial.
 
 - - - 
 
