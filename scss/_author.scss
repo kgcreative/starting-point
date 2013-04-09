@@ -2,3 +2,9 @@
 	@include outer-container;
 	width: $container-width;
 }
+
+.rad {
+	@include breakpoint(768px)  {
+		@include span-columns(6);
+	}
+}

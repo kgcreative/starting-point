@@ -13,15 +13,15 @@
       "outputAbbreviatedPath" : "\/js\/plugins\/jquery.lettering-ck.js",
       "fileType" : 64
     },
-    "\/scss\/bourbon\/css3\/_background-size.scss" : {
+    "\/scss\/bourbon\/functions\/_px-to-em.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/bourbon\/css3\/_background-size.scss",
+      "inputAbbreviatedPath" : "\/scss\/bourbon\/functions\/_px-to-em.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/bourbon\/css\/_background-size.css",
+      "outputAbbreviatedPath" : "\/scss\/bourbon\/css\/_px-to-em.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -49,15 +49,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/bourbon\/functions\/_px-to-em.scss" : {
+    "\/scss\/bourbon\/css3\/_background-size.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/bourbon\/functions\/_px-to-em.scss",
+      "inputAbbreviatedPath" : "\/scss\/bourbon\/css3\/_background-size.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/bourbon\/css\/_px-to-em.css",
+      "outputAbbreviatedPath" : "\/scss\/bourbon\/css\/_background-size.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -192,6 +192,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/js\/app.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -202,18 +211,6 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/app.min.js",
       "fileType" : 64
-    },
-    "\/scss\/_reset.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/_reset.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_reset.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/scss\/neat\/grid\/_span-columns.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -227,14 +224,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/index.html" : {
+    "\/scss\/_reset.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/scss\/_reset.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_reset.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/scss\/bourbon\/css3\/_image-rendering.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -392,18 +392,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/neat\/grid\/_fill-parent.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/neat\/grid\/_fill-parent.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/neat\/css\/_fill-parent.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/scss\/bourbon\/css3\/_perspective.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -416,15 +404,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/neat\/settings\/_grid.scss" : {
+    "\/scss\/_typography.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/neat\/settings\/_grid.scss",
+      "inputAbbreviatedPath" : "\/scss\/_typography.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/neat\/css\/_grid.css",
+      "outputAbbreviatedPath" : "\/css\/_typography.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -437,6 +425,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/scss\/bourbon\/css\/_font-face.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/scss\/bourbon\/functions\/_linear-gradient.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/bourbon\/functions\/_linear-gradient.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/bourbon\/css\/_linear-gradient.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -464,6 +464,18 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/scss\/neat\/grid\/_fill-parent.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/neat\/grid\/_fill-parent.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/neat\/css\/_fill-parent.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/scss\/neat\/functions\/_px-to-em.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -476,27 +488,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/_typography.scss" : {
+    "\/scss\/neat\/settings\/_grid.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/_typography.scss",
+      "inputAbbreviatedPath" : "\/scss\/neat\/settings\/_grid.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_typography.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/scss\/bourbon\/functions\/_linear-gradient.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/bourbon\/functions\/_linear-gradient.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/bourbon\/css\/_linear-gradient.css",
+      "outputAbbreviatedPath" : "\/scss\/neat\/css\/_grid.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -536,18 +536,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/bourbon\/_bourbon.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/bourbon\/_bourbon.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/css\/_bourbon.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/scss\/neat\/grid\/_outer-container.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -560,6 +548,18 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/scss\/bourbon\/_bourbon.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/bourbon\/_bourbon.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/css\/_bourbon.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/scss\/bourbon\/css3\/_hidpi-media-query.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -569,18 +569,6 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/scss\/bourbon\/css\/_hidpi-media-query.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/scss\/bourbon\/functions\/_radial-gradient.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/bourbon\/functions\/_radial-gradient.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/bourbon\/css\/_radial-gradient.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -608,6 +596,18 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/scss\/bourbon\/functions\/_radial-gradient.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/bourbon\/functions\/_radial-gradient.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/bourbon\/css\/_radial-gradient.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/scss\/bourbon\/addons\/_button.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -632,6 +632,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/js\/libs\/jquery-migrate-1.1.1.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/libs\/jquery-migrate-1.1.1.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/libs\/jquery-migrate-1.1.1.min-ck.js",
+      "fileType" : 64
+    },
     "\/scss\/bourbon\/css3\/_placeholder.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -641,6 +652,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/scss\/bourbon\/css\/_placeholder.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/scss\/bourbon\/addons\/_clearfix.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/bourbon\/addons\/_clearfix.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/bourbon\/css\/_clearfix.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -656,18 +679,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/neat\/_neat-helpers.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/neat\/_neat-helpers.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/css\/_neat-helpers.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/scss\/bourbon\/functions\/_deprecated-webkit-gradient.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -677,18 +688,6 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/scss\/bourbon\/css\/_deprecated-webkit-gradient.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/scss\/bourbon\/css3\/_animation.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/bourbon\/css3\/_animation.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/bourbon\/css\/_animation.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -704,15 +703,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/bourbon\/css3\/_user-select.scss" : {
+    "\/scss\/neat\/_neat-helpers.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/bourbon\/css3\/_user-select.scss",
+      "inputAbbreviatedPath" : "\/scss\/neat\/_neat-helpers.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/bourbon\/css\/_user-select.css",
+      "outputAbbreviatedPath" : "\/scss\/css\/_neat-helpers.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -739,62 +738,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/bourbon\/addons\/_clearfix.scss" : {
+    "\/scss\/bourbon\/functions\/_modular-scale.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/bourbon\/addons\/_clearfix.scss",
+      "inputAbbreviatedPath" : "\/scss\/bourbon\/functions\/_modular-scale.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/bourbon\/css\/_clearfix.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/scss\/neat\/grid\/_global-variables.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/neat\/grid\/_global-variables.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/neat\/css\/_global-variables.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/scss\/neat\/settings\/_visual-grid.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/neat\/settings\/_visual-grid.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/neat\/css\/_visual-grid.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/js\/libs\/jquery-migrate-1.1.1.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/libs\/jquery-migrate-1.1.1.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/libs\/jquery-migrate-1.1.1.min-ck.js",
-      "fileType" : 64
-    },
-    "\/scss\/_mixins.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/_mixins.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_mixins.css",
+      "outputAbbreviatedPath" : "\/scss\/bourbon\/css\/_modular-scale.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -810,6 +762,54 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/scss\/neat\/settings\/_visual-grid.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/neat\/settings\/_visual-grid.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/neat\/css\/_visual-grid.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/scss\/neat\/grid\/_global-variables.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/neat\/grid\/_global-variables.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/neat\/css\/_global-variables.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/scss\/bourbon\/css3\/_user-select.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/bourbon\/css3\/_user-select.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/bourbon\/css\/_user-select.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/scss\/_mixins.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/_mixins.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_mixins.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/js\/libs\/modernizr.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -820,18 +820,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/libs\/modernizr-ck.js",
       "fileType" : 64
-    },
-    "\/scss\/neat\/grid\/_row.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/neat\/grid\/_row.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/neat\/css\/_row.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/scss\/bourbon\/css3\/_border-radius.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -845,15 +833,27 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/bourbon\/functions\/_modular-scale.scss" : {
+    "\/scss\/neat\/grid\/_row.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/bourbon\/functions\/_modular-scale.scss",
+      "inputAbbreviatedPath" : "\/scss\/neat\/grid\/_row.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/bourbon\/css\/_modular-scale.css",
+      "outputAbbreviatedPath" : "\/scss\/neat\/css\/_row.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/scss\/bourbon\/css3\/_animation.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/bourbon\/css3\/_animation.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/bourbon\/css\/_animation.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -917,6 +917,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/css\/style.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/js\/libs\/jquery-1.9.1.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -927,18 +936,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/libs\/jquery-1.9.1-ck.js",
       "fileType" : 64
-    },
-    "\/scss\/bourbon\/addons\/_triangle.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/bourbon\/addons\/_triangle.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/bourbon\/css\/_triangle.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/scss\/_normalize.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -952,14 +949,17 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/css\/style.css" : {
+    "\/scss\/bourbon\/addons\/_triangle.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/scss\/bourbon\/addons\/_triangle.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/bourbon\/css\/_triangle.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/scss\/neat\/grid\/_media.scss" : {
       "ignoreWasSetByUser" : 0,
