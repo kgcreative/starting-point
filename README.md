@@ -1,3 +1,3 @@
 # Starting point
 
-Personal starting point for new projects
+A starting point for new projects
