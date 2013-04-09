@@ -1,5 +1,3 @@
-// @codekit-prepend "plugins/jquery.lettering.js"
-
 // Lettering
 
 $('h1').lettering();

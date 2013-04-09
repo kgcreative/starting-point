@@ -8,3 +8,17 @@
 		@include span-columns(6);
 	}
 }
+
+.awesome-dude {
+	.char1 { color: #999 }
+	.char2 { color: darken(#999, 10%) }
+	.char3 { color: darken(#999, 20%) }
+	.char4 { color: darken(#999, 30%) }
+	.char5 { color: darken(#999, 40%) }
+	.char6 { color: darken(#999, 50%) }
+	.char7 { color: darken(#999, 60%) }
+}
+
+body {
+	background: #fff
+}
