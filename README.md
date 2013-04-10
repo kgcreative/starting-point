@@ -22,7 +22,7 @@ A magical boilerplate for [Sass](http://sass-lang.com/) and JavaScript using [Li
 #### Run these commands after downloading this repo
 
 1. `cd [name-of-directory]`
-2. `npm install`
+2. `npm install` - only if you want to use Grunt
 3. `cd scss`
 4. `bourbon install`
 5. `neat install`
@@ -30,4 +30,4 @@ A magical boilerplate for [Sass](http://sass-lang.com/) and JavaScript using [Li
 #### LiveReload Settings
 
 1. Allow LiveReload to compile Sass
-2. Run a custom command after processing changes = `grunt`
+2. Run a custom command after processing changes = `grunt` - only if you want to use Grunt
