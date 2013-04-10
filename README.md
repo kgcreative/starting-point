@@ -26,7 +26,6 @@ A magical boilerplate for [Sass](http://sass-lang.com/) and JavaScript using [Li
 3. `cd scss`
 4. `bourbon install`
 5. `neat install`
-6. `cd ..`
 
 #### LiveReload Settings
 
