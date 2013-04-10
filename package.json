@@ -1,22 +1,22 @@
 {
-	"name": "StartingPoint",
-	"version": "0.1.0",
-	"author": {
-		"name": "Josh Fry",
-		"email": "joshdfry@me.com",
-		"url": "https://github.com/joshfry/starting-point"
-	},
-	"description": "Starting Point - A starting point for new projects",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/joshfry/starting-point.git"
-	},
-	"dependencies": {
-		"grunt": "~0.4.0",
-		"grunt-contrib-uglify": "~0.1.2",
-		"grunt-contrib-watch": "~0.3.1"
-	},
-	"engines": {
-		"node": "0.8.x"
-	}
+  "name": "StartingPoint",
+  "version": "0.1.0",
+  "author": {
+    "name": "Josh Fry",
+    "email": "joshdfry@me.com",
+    "url": "https://github.com/joshfry/starting-point"
+  },
+  "description": "Starting Point - A starting point for new projects",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshfry/starting-point.git"
+  },
+  "dependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-uglify": "~0.1.2",
+    "grunt-contrib-watch": "~0.3.1"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
 }
