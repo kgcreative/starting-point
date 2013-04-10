@@ -4,15 +4,24 @@ A boilerplate for [Sass](http://sass-lang.com/) and JavaScript using [Grunt](htt
 
 - - - 
 
-#### Prerequisites
+#### Sass
 
-1. [Ruby](http://www.ruby-lang.org/en/)
-2. [node.js](http://nodejs.org/)
-3. [Node Package Manager (npm)](https://npmjs.org/)
-4. [Grunt](http://gruntjs.com/) - `npm install -g grunt-cli`
-5. [Sass](http://sass-lang.com/) - `gem install sass`
+To install Sass you'll need [Ruby](http://www.ruby-lang.org/en/)
 
-#### Using Grunt
+Then, in Terminal run `gem install sass`
+
+To use Sass in the project:
+
+1. `cd [root-of-your-site]`
+2. `sass --watch scss/style.css:css/style.css --style compressed`
+
+#### Grunt
+
+To Install [Grunt](http://gruntjs.com/) you'll need [node.js](http://nodejs.org/) and [npm](https://npmjs.org/)
+
+Then, in Terminal run `npm install -g grunt-cli`
+
+To use Grunt in the project:
 
 1. `cd [name-of-directory]`
 2. `npm install`
