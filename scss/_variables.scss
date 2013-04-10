@@ -4,21 +4,28 @@
 
 // Colors
 
-$selection-color      :     #fb9fe5;
+$brand-blue           :     #2379cf;
 
-$background-color     :     #fff;
-$font-color           :     #444;
+$black                :     #000;
+$light-black          :     #444;
+$dark-gray            :     #999;
+$gray                 :     #ccc;
+$light-gray           :     #ddd;
+$white-smoke          :     #eee;
+$white                :     #fff;
 
 $link-color           :     #2379cf;
-$link-hover-color     :     #123e69;
+$link-hover-color     :     darken($link-color, 10%);
+
+$selection-color      :     #FF69B4;
 
 
 // Grid Settings
 
-$container-width      :     90%;
-$container-max-width  :     1600px;
+$unit                 :     1em;
 
-$gutter               :     1.5em;
+$container-width      :     90%; // Currently not using this variable
+$container-max-width  :     68.75em; // 68.75em = 1000px / 75em = 1200px
 
 
 // Dev Mode
