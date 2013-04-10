@@ -1,0 +1,13 @@
+// Typography
+// ------------------------------------------------------------
+
+html { 
+  font-size: 87.5%;
+  @include breakpoint(768px) { font-size: 100% }
+}
+
+body { 
+  font: 300 1em/1.5 "proxima-nova",sans-serif;; 
+  background: $background-color;
+  color: $font-color;
+}
