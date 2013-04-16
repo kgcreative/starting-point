@@ -22,7 +22,7 @@ A boilerplate for [Sass](http://sass-lang.com/) and JavaScript using [Grunt](htt
 
 ---
 
-### To use "Starting Point", the following must be installed on your computer
+### To use "Starting Point", the following must be already installed
 
 #### Gems
 
