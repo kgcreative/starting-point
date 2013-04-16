@@ -12,7 +12,7 @@ Install Sass with `gem install sass`
 
 To use Sass in the project:
 
-1. `sass --watch scss/style.css:css/style.css --style compressed`
+1. `sass --watch scss/style.scss:css/style.css --style compressed`
 
 #### Grunt
 
