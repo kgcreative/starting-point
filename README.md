@@ -4,18 +4,18 @@ A boilerplate for [Sass](http://sass-lang.com/) and JavaScript using [Grunt](htt
 
 - - - 
 
-## Bourbon & Bourbon Neat
+### Bourbon & Bourbon Neat
 
 `cd` into your scss directory
 
 1. `bourbon install`
 2. `neat install`
 
-## Sass
+### Sass
 
 1. `sass --watch scss/style.scss:css/style.css --style compressed`
 
-## Grunt
+### Grunt
 
 1. `npm install` 
 2. `grunt` or `grunt watch`
