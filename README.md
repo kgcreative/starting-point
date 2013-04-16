@@ -4,23 +4,32 @@ A boilerplate for [Sass](http://sass-lang.com/) and JavaScript using [Grunt](htt
 
 - - - 
 
-#### Sass
+## Bourbon & Bourbon Neat
 
-To install Sass you'll need [Ruby](http://www.ruby-lang.org/en/)
+`cd` into your scss directory
 
-Install Sass with `gem install sass`
+1. `bourbon install`
+2. `neat install`
 
-To use Sass in the project:
+## Sass
 
 1. `sass --watch scss/style.scss:css/style.css --style compressed`
 
+## Grunt
+
+1. `npm install` 
+2. `grunt` or `grunt watch`
+
+---
+
+### To use "Starting Point", the following must be installed on your computer
+
+#### Gems
+
+1. `gem install sass`
+2. `gem install bourbon`
+3. `gem install neat` 
+
 #### Grunt
 
-To Install [Grunt](http://gruntjs.com/) you'll need [node.js](http://nodejs.org/) and [npm](https://npmjs.org/)
-
-Install Grunt with `npm install -g grunt-cli`
-
-To use Grunt in the project:
-
-1. `npm install`
-2. `grunt`
+1. `npm install -g grunt-cli`
