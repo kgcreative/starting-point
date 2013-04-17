@@ -13,7 +13,7 @@ A boilerplate for [Sass](http://sass-lang.com/) and JavaScript using [Grunt](htt
 
 ### Sass
 
-1. `sass --watch scss/style.scss:css/style.css --style compressed`
+1. `sass --watch scss:css --style compressed`
 
 ### Grunt
 
