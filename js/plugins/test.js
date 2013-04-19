@@ -1,1 +1,1 @@
-alert ("LiveReload and Grunt are working in harmony.");
+alert ("I ate fiberglass insulation. It wasn’t cotton candy like the guy said... my tummy itches.");
